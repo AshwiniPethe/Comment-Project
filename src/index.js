@@ -6,7 +6,7 @@ const App = ()=>{
     return (
         <div className='ui container comments' style={{margin : "10px",padding: "10px"}}>
           <h3 className="ui dividing header">Comments</h3>
-          <ApproveCard button1='yes' button2='no'> 
+          <ApproveCard button1='Yes' button2='No'> 
             <h2 style={{color:'red'}}>Warning !</h2>
             <p>Are you sure want to delete something?</p>
           </ApproveCard>
